@@ -1,0 +1,74 @@
+.thumbnail{
+    height: 370px;
+    width: 550px;
+    border-radius: 3%;
+}
+
+.thumbnail1{
+    height: 120px;
+    width: 150px;
+    border-radius: 5%;
+}
+
+.navbar-brand {
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: rgb(255, 255, 255); 
+    border-radius: 2%;
+}
+
+.jumbotron1 {
+    background-color: rgb(255, 255, 255);
+}
+
+.jumbotron2 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 2%;
+}
+
+.jumbotron3 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 3%;
+}
+
+.btn1
+    {
+        font-family: 'Athiti', cursive;
+    font-weight:400;
+    -webkit-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    transition:all .3s ease-in-out;
+    text-transform:uppercase;
+    border-radius:10%;
+}
+
+.wongnok
+{
+    color: white;
+    font-family: 'Athiti', cursive;
+        font-size:35px
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.aboutme
+{
+    font-size: 45px;
+}
+
+.star-rating {
+    line-height:32px;
+    font-size:1.25em;
+  }
+  
+  .star-rating .fa-star{color: yellow;}

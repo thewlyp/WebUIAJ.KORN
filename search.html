@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>:: Wongnok - Place Searching Engine ::</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/grayscale.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/default.css">
+  <link href="https://fonts.googleapis.com/css?family=Athiti|Chonburi" rel="stylesheet">
+</head>
+<style>
+  body {
+    background-image: url("img/bg1.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+</style>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      &nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html"><span class="fa fa-angle-left"></span></a>
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Wongnok</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#search1">Search</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#result">Result</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="search1"></section>
+  <!-- Search Section -->
+  <section class="content-section text-center">
+    <div class="container col-lg-4 mx-auto">
+      <div class="jumbotron col-12">
+        <h1 class="display-3">Search</h1>
+        <form>
+          <div class="col"></div>
+          <div class="form-group text-left">
+            <label for="">Search</label>
+            <input type="text" name="keyword" id="keyword" class="form-control" placeholder="Keyword ex. Cafe, Seafood" aria-describedby="helpId">
+          </div>
+          <div class="form-group text-left">
+            <label for="">Category</label>
+            <select class="form-control" name="type" id="type">
+              <option value="resturant">Resturant</option>
+              <option value="doctor">Doctor</option>
+              <option value="beauty_salon">Beauty Salon</option>
+              <option value="gas_station">Gas Station</option>
+              <option value="atm">ATM</option>
+            </select>
+          </div>
+          <div class="form-group text-left">
+            <label for="">Distance</label>
+            <select class="form-control" name="radius" id="radius">
+              <option value="500">500 m</option>
+              <option value="1000">1 km</option>
+              <option value="5000">5 km</option>
+            </select>
+          </div>
+          <br>
+          <a name="search" id="search" class="btn btn-circle js-scroll-trigger" href="#result" role="button">
+            <i class="fa fa-angle-double-down animated"></i>
+          </a>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- result Section -->
+  <section id="result" class="download-section content-section text-center">
+    <div class="container col-lg-8 mx-auto">
+      <div class="jumbotron2 col-12">
+        <br>
+        <br>
+        <br>
+        <h1>Results</h1>
+        <b><br>
+          <div id="searchresult" class="col-lg-8 mx-auto"></div>
+        </b><br><br>
+        <div class="footer"><h12 class="explain text-left">*This content was created for Education in Subject 977-290 Workshop II Web user Interface Development</h12></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.4/fetch.min.js"></script>
+  <script src="js/placesearch.js"></script>
+  <script src="js/search.js"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,415 @@
+body
+    {
+        font-family: 'Athiti', cursive;
+    position:relative;
+    width:100%;
+    height:100%;
+    color:black;
+    background-color:#000;
+}
+
+html
+    {
+    width:100%;
+    height:100%
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+    {
+        font-family: 'Athiti', cursive;
+    font-weight:700;
+    margin:0 0 35px;
+    letter-spacing:1px;
+    text-transform:uppercase
+}
+
+p 
+    {
+    font-size:16px;
+    line-height:1.5;
+    margin:0 0 25px
+}
+
+@media (min-width:768px){
+p   {
+    font-size:18px;
+    line-height:1.6;
+    margin:0 0 35px
+    }
+}
+
+a
+    {
+        font-family: 'Athiti', cursive;
+    -webkit-transition:all .2s ease-in-out;
+    -moz-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out;
+    color:black
+}
+
+a:focus,a:hover
+    {
+    text-decoration:none;
+    color:rgb(71, 71, 71)
+}
+
+#mainNav
+    {
+        font-family: 'Athiti', cursive;
+    margin-bottom:0;
+    text-transform:uppercase;
+    border-bottom:1px solid rgba(255,255,255,.3);
+    background-color:#000
+}
+
+#mainNav .navbar-toggler
+    {
+    font-size:14px;
+    padding:11px;
+    color:#fff;
+    border:1px solid #fff
+}
+
+#mainNav .navbar-brand
+    {
+    font-weight:700
+}
+
+#mainNav a
+    {
+    color:#fff
+}
+
+#mainNav .navbar-nav .nav-item
+    {
+    -webkit-transition:background .3s ease-in-out;
+    -moz-transition:background .3s ease-in-out;
+    transition:background .3s ease-in-out
+}
+
+#mainNav .navbar-nav .nav-item:hover
+    {
+    color:fade(white,80%);
+    outline:0;
+    background-color:transparent
+}
+
+#mainNav .navbar-nav .nav-item:active,#mainNav .navbar-nav .nav-item:focus
+    {
+    outline:0;
+    background-color:transparent
+}
+
+@media (min-width:992px){
+    
+#mainNav
+    {
+    padding-top:20px;
+    padding-bottom:20px;
+    -webkit-transition:background .3s ease-in-out,padding-top .3s ease-in-out,padding-bottom .3s;
+    -moz-transition:background .3s ease-in-out,padding-top .3s ease-in-out,padding-bottom .3s;
+    transition:background .3s ease-in-out,padding-top .3s ease-in-out,padding-bottom .3s;
+    letter-spacing:1px;
+    border-bottom:none;
+    background:0 0
+}
+
+#mainNav.navbar-shrink
+    {
+    padding-top:10px;
+    padding-bottom:10px;
+    border-bottom:1px solid rgba(255,255,255,.3);
+    background:#000
+}
+
+#mainNav .nav-link.active
+    {
+    outline:0;
+    background-color:rgba(255,255,255,.3)
+}
+
+#mainNav .nav-link.active:hover
+    {
+    color:#fff
+}
+}
+
+.masthead
+    {
+    display:table;
+    width:100%;
+    height:auto;
+    padding:200px 0;
+    text-align:center;
+    color:black;
+    background:url(../img/bg1.jpg) no-repeat bottom center scroll;
+    background-color:#000;-webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.masthead .intro-body
+    {
+    display:table-cell;
+    vertical-align:middle
+}
+
+.masthead .intro-body .brand-heading
+    {
+    font-size:50px
+}
+
+.masthead .intro-body .intro-text
+    {
+    font-size:18px;
+}
+
+@media (min-width:768px)
+    {
+    .masthead
+        {
+        height:100%;
+        padding:0
+    }
+    
+    .masthead .intro-body .brand-heading
+        {
+            font-family: 'Athiti', cursive;
+        font-size:50px
+    }
+    
+    .masthead .intro-body .intro-text
+        {
+            font-family: 'Athiti', cursive;
+        font-size:35px
+    }
+
+    .masthead .intro-body .explain
+        {
+            font-family: 'Athiti', cursive;
+        font-size:14px
+    }
+
+    .masthead .intro-body .explain1
+        {
+            font-family: 'Athiti', cursive;
+        font-size:30px
+    }
+
+
+    .masthead .intro-body .entersite
+        {
+            font-family: 'Athiti', cursive;
+        font-size:24px;
+        border:1px solid black ;
+        border-radius: 8%;
+    }
+
+    .masthead .intro-body .entersite:focus,.masthead .intro-body .entersite:hover
+        {
+        border:2px solid rgb(85, 85, 85) ;
+        border-radius: 5%;
+    }
+}
+
+.btn-circle
+    {
+    font-size:26px;
+    width:55px;
+    height:55px;
+    margin-top:15px;
+    line-height:45px;
+    -webkit-transition:background .3s ease-in-out;
+    -moz-transition:background .3s ease-in-out;
+    transition:background .3s ease-in-out;
+    color:black;
+    border:2px solid black;
+    border-radius:40%!important;
+    background:0 0
+}
+
+.btn-circle:focus,.btn-circle:hover
+    {
+    color:rgb(71, 71, 71);
+    border:2px solid rgb(71, 71, 71);
+    outline:0;
+    background:rgba(255,255,255,.1)
+}
+
+.content-section
+    {
+    color:black;
+    font-family: 'Athiti', cursive;
+    padding-top:150px;
+    padding-bottom:150px
+}
+
+.content-section1
+    {
+    color:black;
+    font-family: 'Athiti', cursive;
+    padding-top:150px;
+    padding-bottom:150px
+}
+
+.download-section
+    {
+    color:black;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover
+}
+
+.searchresult
+    {
+    color:black;
+    }
+
+#map
+    {
+    width:100%;
+    height:300px
+}
+
+@media (min-width:992px)
+    {
+    .content-section
+        {
+            padding-top:200px;
+            padding-bottom:200px
+        }
+        
+        #map
+        {
+            height:350px
+        }
+    }
+    
+.btn
+    {
+        font-family: 'Athiti', cursive;
+    font-weight:400;
+    -webkit-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    transition:all .3s ease-in-out;
+    text-transform:uppercase;
+    border-radius:0
+}
+
+.btn-default1
+    {
+    color:black;
+    border:1px solid black;
+    background-color:transparent
+}
+
+.btn-default1:focus,.btn-default1:hover
+    {color:white;
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 0;
+    outline:0;
+    background-color:rgb(25, 87, 255);
+}
+
+.btn-default2
+    {
+    color:black;
+    border:1px solid black;
+    background-color:transparent;
+}
+
+.btn-default2:focus,.btn-default2:hover
+    {color:white;
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 0;
+    outline:0;
+    background-color:rgb(250, 124, 85);
+}
+
+.btn-default3
+    {
+    color:black;
+    border:1px solid black;
+    background-color:transparent;
+}
+
+.btn-default3:focus,.btn-default3:hover
+    {color:white;
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 0;
+    outline:0;
+    background-color:rgb(102, 212, 255)
+}
+
+ul.banner-social-buttons
+    {
+    margin-top:0
+}
+
+@media (max-width:1199px)
+    {
+        ul.banner-social-buttons
+            {
+                margin-top:15px
+        }
+    }
+
+@media (max-width:767px)
+    {
+        ul.banner-social-buttons li
+            {
+                display:block;
+                margin-bottom:20px;
+                padding:0
+        }
+
+        ul.banner-social-buttons li:last-child
+            {
+                margin-bottom:0
+         }
+    }
+        
+footer
+    {
+    padding:50px 0
+}
+
+footer p
+    {
+    font-size:14px;
+    margin:0
+}
+
+::-moz-selection
+    {
+    background:white;
+    background:rgba(255,255,255,.2);
+    text-shadow:none
+}
+
+::selection
+    {
+    background:white;
+    background:rgba(255,255,255,.2);
+    text-shadow:none
+}
+
+img::selection
+    {
+    background:0 0
+}
+
+img::-moz-selection
+    {
+    background:0 0
+}
